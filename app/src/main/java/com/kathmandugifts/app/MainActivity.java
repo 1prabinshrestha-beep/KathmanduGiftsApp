@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceStatooe) {
         super.onCreate(savedInstanceState);
         WebView webView = new WebView(this);
         webView.getSettings().setJavaScriptEnabled(true);
